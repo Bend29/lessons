@@ -71,3 +71,10 @@ body {
   border-color: var(--input-focus-border-color);
   box-shadow: var(--input-focus-box-shadow);
 }
+
+.item-list {
+    transition: background-color .3s;
+}
+.item-list.completed {
+    background-color: #aefdd1;
+}
