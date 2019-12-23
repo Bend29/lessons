@@ -7,10 +7,87 @@ const tasks = [
         title: 'Eu ea incididunt sunt consectetur fugiat non.',
     },
     {
-        _id: '5d2ca9e29c8a94095c1288e0',
+        _id: '5d2ca9e29c8a940asd95c1288e0',
         completed: false,
         body:
             'Aliquip cupidatat ex adipisicing veniam do tempor. Lorem nulla adipisicing et esse cupidatat qui deserunt in fugiat duis est qui. Est adipisicing ipsum qui cupidatat exercitation. Cupidatat aliqua deserunt id deserunt excepteur nostrud culpa eu voluptate excepteur. Cillum officia proident anim aliquip. Dolore veniam qui reprehenderit voluptate non id anim.\r\n',
+        title:
+            'Deserunt laborum id consectetur pariatur veniam occaecat occaecat tempor voluptate pariatur nulla reprehenderit ipsum.',
+    },
+    {
+        _id: 'asdweaaaseddawd',
+        completed: true,
+        body:
+            'Aliquip cupidatat ex adipisicing veniam do tempor. Lorem nulla adipisicing et esse cupidatat qui deserunt in fugiat duis est qui. Est adipisicing ipsum qui cupidatat exercitation. Cupidatat aliqua deserunt',
+        title:
+            'Deserunt laborum id consectetur pariatur veniam occaecat occaecat tempor voluptate pariatur nulla reprehenderit ipsum.',
+    },
+    {
+        _id: 'qweqwe',
+        completed: true,
+        body:
+            'Occaecat non ea quis occaecat ad culpa amet deserunt incididunt elit fugiat pariatur. Exercitation commodo culpa in veniam proident laboris in. Excepteur cupidatat eiusmod dolor consectetur exercitation nulla aliqua veniam fugiat irure mollit. Eu dolor dolor excepteur pariatur aute do do ut pariatur consequat reprehenderit deserunt.\r\n',
+        title: 'Eu ea incididunt sunt consectetur fugiat non.',
+    },
+    {
+        _id: '5d2ca9e29c8aasdawe94095c1288e0',
+        completed: false,
+        body:
+            'Aliquip cupidatat ex adipisicing veniam do tempor. Lorem nulla adipisicing et esse cupidatat qui deserunt in fugiat duis est qui. Est adipisicing ipsum qui cupidatat exercitation. Cupidatat aliqua deserunt id deserunt excepteur nostrud culpa eu voluptate excepteur. Cillum officia proident anim aliquip. Dolore veniam qui reprehenderit voluptate non id anim.\r\n',
+        title:
+            'Deserunt laborum id consectetur pariatur veniam occaecat occaecat tempor voluptate pariatur nulla reprehenderit ipsum.',
+    },
+    {
+        _id: 'asdweadawd',
+        completed: true,
+        body:
+            'Aliquip cupidatat ex adipisicing veniam do tempor. Lorem nulla adipisicing et esse cupidatat qui deserunt in fugiat duis est qui. Est adipisicing ipsum qui cupidatat exercitation. Cupidatat aliqua deserunt',
+        title:
+            'Deserunt laborum id consectetur pariatur veniam occaecat occaecat tempor voluptate pariatur nulla reprehenderit ipsum.',
+    },
+    {
+        _id: '5d2ca9e2e03qweqwed40b326596aa7',
+        completed: true,
+        body:
+            'Occaecat non ea quis occaecat ad culpa amet deserunt incididunt elit fugiat pariatur. Exercitation commodo culpa in veniam proident laboris in. Excepteur cupidatat eiusmod dolor consectetur exercitation nulla aliqua veniam fugiat irure mollit. Eu dolor dolor excepteur pariatur aute do do ut pariatur consequat reprehenderit deserunt.\r\n',
+        title: 'Eu ea incididunt sunt consectetur fugiat non.',
+    },
+    {
+        _id: '5d2caqweqwe9e29c8a94095c1288e0',
+        completed: false,
+        body:
+            'Aliquip cupidatat ex adipisicing veniam do tempor. Lorem nulla adipisicing et esse cupidatat qui deserunt in fugiat duis est qui. Est adipisicing ipsum qui cupidatat exercitation. Cupidatat aliqua deserunt id deserunt excepteur nostrud culpa eu voluptate excepteur. Cillum officia proident anim aliquip. Dolore veniam qui reprehenderit voluptate non id anim.\r\n',
+        title:
+            'Deserunt laborum id consectetur pariatur veniam occaecat occaecat tempor voluptate pariatur nulla reprehenderit ipsum.',
+    },
+    {
+        _id: 'asdweadawd',
+        completed: true,
+        body:
+            'Aliquip cupidatat ex adipisicing veniam do tempor. Lorem nulla adipisicing et esse cupidatat qui deserunt in fugiat duis est qui. Est adipisicing ipsum qui cupidatat exercitation. Cupidatat aliqua deserunt',
+        title:
+            'Deserunt laborum id consectetur pariatur veniam occaecat occaecat tempor voluptate pariatur nulla reprehenderit ipsum.',
+    },
+    {
+        _id: 'qwewqeqwe',
+        completed: true,
+        body:
+            'Occaecat non ea quis occaecat ad culpa amet deserunt incididunt elit fugiat pariatur. Exercitation commodo culpa in veniam proident laboris in. Excepteur cupidatat eiusmod dolor consectetur exercitation nulla aliqua veniam fugiat irure mollit. Eu dolor dolor excepteur pariatur aute do do ut pariatur consequat reprehenderit deserunt.\r\n',
+        title: 'Eu ea incididunt sunt consectetur fugiat non.',
+    },
+    {
+        _id: '5d2ca9eqweqwe29c8a94095c1288e0',
+        completed: false,
+        body:
+            'Aliquip cupidatat ex adipisicing veniam do tempor. Lorem nulla adipisicing et esse cupidatat qui deserunt in fugiat duis est qui. Est adipisicing ipsum qui cupidatat exercitation. Cupidatat aliqua deserunt id deserunt excepteur nostrud culpa eu voluptate excepteur. Cillum officia proident anim aliquip. Dolore veniam qui reprehenderit voluptate non id anim.\r\n',
+        title:
+            'Deserunt laborum id consectetur pariatur veniam occaecat occaecat tempor voluptate pariatur nulla reprehenderit ipsum.',
+    },
+    {
+        _id: 'asdweaqweqwdawd',
+        completed: true,
+        body:
+            'Aliquip cupidatat ex adipisicing veniam do tempor. Lorem nulla adipisicing et esse cupidatat qui deserunt in fugiat duis est qui. Est adipisicing ipsum qui cupidatat exercitation. Cupidatat aliqua deserunt',
         title:
             'Deserunt laborum id consectetur pariatur veniam occaecat occaecat tempor voluptate pariatur nulla reprehenderit ipsum.',
     },
@@ -113,6 +190,10 @@ const tasks = [
     themeSelect.addEventListener('change', onThemeSelectHandler);
     filters.addEventListener('click', filterTasksHandler);
 
+    /**
+     * Рендер имеющихся задач в массиве
+     * @param tasksList
+     */
     function renderAllTasks(tasksList) {
         if (!tasksList) {
             console.error('Передайте список задач');
@@ -128,13 +209,23 @@ const tasks = [
                 li.classList.add('completed');
                 checkTaskOfCompleted(li.dataset.taskId, li);
             }
+
         });
 
         listContainer.appendChild(fragment);
+        sortTasks();
         filterTasks();
         setMessage();
     }
 
+    /**
+     * HTML-шаблон для отображения задачи
+     * @param _id - {string} - id задачи
+     * @param title - {string} - заголовок задачи
+     * @param body - {string} - текст задачи
+     * @param completed - {boolean} - статус выполнения задачи
+     * @returns {HTMLLIElement} - возвращаемый HTML-элемент
+     */
     function listItemTemplate({_id, title, body, completed} = {}) {
         const li = document.createElement('li');
         li.classList.add(
@@ -193,6 +284,11 @@ const tasks = [
         return li;
     }
 
+    /**
+     * Обработка события клика отправки данных для создания новой задачи
+     * @param e
+     * @returns {boolean}
+     */
     function onFormSubmitHandler(e) {
         e.preventDefault();
         const titleValue = inputTitle.value;
@@ -211,6 +307,12 @@ const tasks = [
 
     }
 
+    /**
+     * Создание задачи и добавление объекта в массив
+     * @param title {string} - заголовок задачи
+     * @param body {string} - текст задачи
+     * @returns {{completed: boolean, _id: string, title: *, body: *}} возвращаем объект с полученными значениями
+     */
     function createNewTask(title, body) {
         const newTask = {
             title,
@@ -223,6 +325,11 @@ const tasks = [
         return {...newTask};
     }
 
+    /**
+     * Удаление задачи из массива объектов
+     * @param id - {string} - id задачи
+     * @returns {boolean} подтверждение удаления
+     */
     function deleteTask(id) {
         const {title} = objOfTask[id];
         const isConfirm = confirm(`Удалить задачу ${title}?`);
@@ -232,12 +339,21 @@ const tasks = [
         return isConfirm;
     }
 
+    /**
+     * Удаление задачи из DOM
+     * @param confirmed - {boolean} подтверждение удаления
+     * @param el - {object} удаляемый элемент
+     */
     function deleteTaskFromHtml(confirmed, el) {
         if (!confirmed) return;
         el.remove();
         setMessage();
     }
 
+    /**
+     * Обработчик клика по кнопке удаления задачи
+     * @param target
+     */
     function onDeleteHandler({target}) {
         if (target.classList.contains('js-delete-btn')) {
             const parent = target.closest('[data-task-id]');
@@ -266,6 +382,11 @@ const tasks = [
         element.classList.contains('completed') ? changeCompletion(id, true) : changeCompletion(id, false);
     }
 
+    /**
+     * Установка аттрибута
+     * @param elem {object} - Эл-т, которому устанавливаем аттрибут
+     * @param value {boolean} - значение аттрибута
+     */
     function setAttributeCompleted(elem, value) {
         elem.setAttribute('data-task-completed', value);
         filterTasks();
@@ -286,10 +407,14 @@ const tasks = [
             } else {
                 setAttributeCompleted(parent, 'not-completed');
             }
+            sortTasks();
 
         }
     }
 
+    /**
+     * Обработка события клика по селекту
+     */
     function onThemeSelectHandler() {
         const selectedTheme = themeSelect.value;
         const isConfirmed = confirm(`Вы действительно хотите изменить тему на ${selectedTheme}?`);
@@ -303,6 +428,10 @@ const tasks = [
     }
 
 
+    /**
+     * Обработка события клика по фильтрам
+     * @param target - эл-т, по которому кликнули
+     */
     function filterTasksHandler({target}) {
         for (let i = 0; i < filterBtn.length; i++) {
             filterBtn[i].classList.remove('active');
@@ -311,6 +440,9 @@ const tasks = [
         filterTasks();
     }
 
+    /**
+     * Фильтры задач по выполнению (все/выполненные/невыполненные)
+     */
     function filterTasks() {
         const listItem = document.querySelectorAll('.js-item-list');
         const dataValue = filters.querySelector('.js-filter-btn.active').getAttribute('data-filter');
@@ -320,12 +452,16 @@ const tasks = [
             } else {
                 listItem[i].style.display = 'flex';
             }
-            if(dataValue === 'all') {
+            if (dataValue === 'all') {
                 listItem[i].style.display = 'flex';
             }
         }
     }
 
+    /**
+     * Устаноака темы
+     * @param name {string} - строка с названием темы
+     */
     function setTheme(name) {
         const selectedThemeObj = themes[name];
         Object.entries(selectedThemeObj).forEach(([key, value]) => {
@@ -333,6 +469,10 @@ const tasks = [
         });
     }
 
+    /**
+     * Если нет созданных задач, выводим текст
+     * @returns {Element} - {string} - текст
+     */
     function setMessage() {
         const textMessage = document.querySelector('.js-text-message');
         const listItem = document.querySelectorAll('.js-item-list');
@@ -344,6 +484,18 @@ const tasks = [
             filters.style.display = 'block';
         }
         return textMessage;
+    }
+
+    /**
+     * Сортируем задачи по выполнению (выполненные убираем в конец списка)
+     */
+    function sortTasks() {
+        const listItem = document.querySelectorAll('.js-item-list');
+        for (let i = 0; i < listItem.length; i++) {
+           if(listItem[i].classList.contains('completed')) {
+               listContainer.appendChild(listItem[i]);
+           }
+        }
     }
 
 
